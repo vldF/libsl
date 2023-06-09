@@ -84,7 +84,7 @@ class FunctionArgument(
             typeReference.name
         }
 
-        append(typeName)
+        append(BackticksPolitics.forTypeIdentifier(typeName))
     }
 }
 
